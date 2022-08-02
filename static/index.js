@@ -283,7 +283,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function SubmitResults() {
         let system = "其他操作系统";
         let area = "异世界";
-        if ($("#username").val() && _gameSettingNum === 20) {
+        if ($("#username").val() && _gameSettingNum === 30) {
             const systems = [
                 ['Win', 'Windows'],
                 ['like Mac', 'iOS'],

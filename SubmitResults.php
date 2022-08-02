@@ -1,6 +1,6 @@
 <?php
 @session_start();
-define('TIME_LIMIT', 10);
+define('TIME_LIMIT', 5);
 $time = time();
 if (isset($_SESSION['time'])) {
     if ($time - $_SESSION['time'] <= TIME_LIMIT) {
